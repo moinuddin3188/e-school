@@ -1,0 +1,102 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+body p {
+    color: dimgray;
+}
+.top-banner-bg {
+    background-color: rgb(246, 253, 255);
+}
+.heading {
+    line-height: 40px;
+}
+.coral-color {
+    color: rgb(255, 97, 40);
+}
+h1 {
+    font-weight: 800;
+    font-size: 50px;
+}
+.green-color {
+    color: rgb(34, 165, 34);
+}
+.container {
+    margin-bottom: 70px;
+}
+.nav-item {
+    margin-left: 20px;    
+}
+.btn {
+    padding-right: 20px; 
+    padding-left: 20px; 
+}
+.col-md-7 img {
+    padding-left: 30px;
+    padding-bottom: 40px;
+}
+.card-bg {
+    
+    background-color: rgb(246, 253, 255);
+    border: none;
+}
+.card-bg:hover {
+    box-shadow: 1px 1px 20px rgb(219, 219, 219);
+    background-color: white;
+}
+@media (max-width: 1000px) {
+    .card-bg {
+        margin-bottom: 20px;
+    }
+}
+.card-body h5, h3 {
+    color: rgb(0, 0, 44);
+}
+h2 {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 40px;
+    font-weight: 600;
+}
+@media (max-width: 1000px) {
+    .card-deck {
+        flex-direction: column;
+        max-width: 440px;
+        justify-content: center;
+    }  
+}
+
+.card-img-top {
+    padding: 15px 18px;
+}
+.card-bottom {
+    margin-top: 15px;
+}  
+.date-and-seat {
+    padding-top: 2px;
+    padding-left: 7px;
+    font-weight: 500;
+}
+.shadow {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px gray;
+}
+.testimonial img {
+    margin-right: 60px;
+}
+.testimonial p {
+    padding-top: 10px;
+    line-height: 35px;
+}
+.footer {
+    background-color: rgb(7, 7, 12);
+    color: white;
+    padding-top: 50px;
+    
+}
+.footer p {
+    color: white;
+}
+footer p {
+    text-align: center;
+}
